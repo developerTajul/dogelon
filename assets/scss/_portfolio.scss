@@ -1,0 +1,20 @@
+.portfolio-area{
+    .portfolio-menu{
+        button{
+            background: none;
+            border: inherit;
+            font-size: 14px;
+            color: #f26957;
+            button.active{
+                color: green;
+            }
+        }
+    }
+    .portfolio-wrapper{
+        .portfolio-thumb{
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

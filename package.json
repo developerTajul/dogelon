@@ -1,0 +1,14 @@
+{
+  "name": "spellon",
+  "version": "1.0.0",
+  "description": "A sass project",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass assets/scss/main.scss css/style.css -w"
+  },
+  "author": "Spellon Team",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  }
+}

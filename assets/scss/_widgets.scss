@@ -1,0 +1,183 @@
+/** Custom & Default Widget **/
+.footer-top-widget{
+    h2{
+        font-size: 19px;
+        line-height: 26px;
+        color:#fff;
+        text-transform: capitalize;
+        margin-bottom: 28px;
+    }
+
+    p{
+        color: #bdbdbd;
+    }
+    .social-profiles{
+        ul {
+            li {
+                display: inline;
+                margin: 0 3px;
+                a{
+                    width: 35px;
+                    height: 35px;
+                    line-height: 35px;
+                    background: #fff;
+                    text-align: center;
+                    display: inline-block;
+                    border-radius: 50%;
+                    color: #010101;
+
+                    &:hover{
+                        color: #fff;
+                        background: #F26957;
+                    }
+                }
+                &:first-child{
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+
+
+    .about-widget{
+        .logo{
+            margin-bottom: 27px;
+        }
+        .content {
+            margin-bottom: 18px;
+            p{
+
+            }
+        }
+        .social-profiles{
+            ul {
+                li {
+                    display: inline;
+                    margin: 0 3px;
+                    a{
+                        width: 35px;
+                        height: 35px;
+                        line-height: 35px;
+                        background: #fff;
+                        text-align: center;
+                        display: inline-block;
+                        border-radius: 50%;
+                        color: #010101;
+
+                        &:hover{
+                            color: #fff;
+                            background: #F26957;
+                        }
+                    }
+                    &:first-child{
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .subscribe-widget{
+        .subscribe-form{
+            p{
+                margin-bottom: 18px;
+            }
+            form{
+                position: relative;
+
+                input[type="email"]{
+                    width: 100%;
+                    background-color: #3F3F3F;
+                    padding: 20px 15px 18px;
+                    border: 0;
+                }
+
+                input[type="submit"]{
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    height: 100%;
+                    width: 115px;
+                    border: 0px solid transparent;
+                    border-left: 1px solid #575757;
+                    background: #3F3F3F;
+                    box-sizing: border-box;
+                    color: #6F6F6F;
+
+                }
+
+                button[type="submit"]{
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    height: 100%;
+                    width: 60px;
+                    border: 0px solid transparent;
+                    border-left: 1px solid #575757;
+                    background: #3F3F3F;
+                    box-sizing: border-box;
+
+                    i {
+                        color: #6F6F6F;
+                    }
+ 
+                }
+            }
+        }
+    }
+}
+
+
+
+
+/** recent posts **/
+.widget_recent_entries{
+   ul{
+       float: right;
+       li{
+           margin-bottom: 15px;
+           a{
+                font-size: 14px;
+                line-height: 26px;
+                color: #bdbdbd;
+                display: block;
+
+                &:hover{
+                    color: #F26957;
+                }
+           }
+           span{
+                font-size: 13px;
+                line-height: 26px;
+                color: #6d6d6d;
+           }
+           &:last-child{
+               margin-bottom: 0;
+           }
+
+       }
+   }
+}
+
+.footer-bottom-widget.widget_nav_menu{
+    float: right;
+    h2{
+        display: none;
+        visibility: hidden;
+    }
+    ul{
+        li{
+            float: left;
+            a{
+                font-size: 14px;
+                line-height: 26px;
+                color: #bdbdbd;
+                text-transform: capitalize;
+                padding-left:15px;
+                &:hover{
+
+                }
+            }
+        }
+    }
+}

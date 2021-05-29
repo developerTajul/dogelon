@@ -1,0 +1,52 @@
+.banner-area{
+    height: 100vh;
+    h1{
+        font-size: 85px;
+        color: #fff;
+    }
+
+    .banner-box{
+        .single-box{
+            border: 1px solid red;
+            padding: 100px 100px;
+            margin-right: 25px;
+            .thumb-icon{
+                img{
+
+                }
+            }
+            .heading{
+                h2{
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    .social-profiles{
+        ul {
+            li {
+                display: inline;
+                margin: 0 3px;
+                a{
+                    width: 35px;
+                    height: 35px;
+                    line-height: 35px;
+                    background: #fff;
+                    text-align: center;
+                    display: inline-block;
+                    border-radius: 50%;
+                    color: #010101;
+
+                    &:hover{
+                        color: #fff;
+                        background: #F26957;
+                    }
+                }
+                &:first-child{
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}
